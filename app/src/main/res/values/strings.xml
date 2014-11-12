@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">MySimpleService</string>
+    <string name="binder_activity_name">Bind Service</string>
+    <string name="messenger_activity_name">Messenger Service</string>
+    <string name="aidl_activity_name">AIDL Service</string>
+
+
+
+    <string name="binder_service_use">Local use of a service extending a binder</string>
+    <string name="messenger_service_use">Local use of using a messenger</string>
+    <string name="aidl_service_use">Local use of using an AIDL</string>
+
+    <string name="button_extra_aidl">Get Last Location</string>
+    <string name="button_extra_messegner">Send \'Hello\' Message!</string>
+    <string name="textview_status">Status : </string>
+
+    <string name="service_start">Start Service</string>
+    <string name="service_stop">Stop Service</string>
+
+    <string name="last_location">Last Location</string>
+
+
+
+    <string name="title_activity_binder_extension">BinderExtensionActivity</string>
+    <string name="title_activity_messenger">MessengerActivity</string>
+
+
+
+    <string name="aidl_toast_started">AIDL Service Started</string>
+    <string name="aidl_toast_stopped">AIDL Service Stopped</string>
+    <string name="aidl_toast_connected">AIDL Service Connected</string>
+    <string name="aidl_toast_disconnected">AIDL Service Disconnected</string>
+
+    <string name="messenger_toast_started">Messenger Service Started</string>
+    <string name="messenger_toast_stopped">Messenger Service Stopped</string>
+    <string name="messenger_toast_connected">Messenger Service Connected</string>
+    <string name="messenger_toast_disconnected">Messenger Service Disconnected</string>
+
+
+    <string name="binder_notification_title_start">START Binder Service Notification</string>
+    <string name="binder_notification_title_stop">STOP Binder Service Notification</string>
+    <string name="binder_ondestroy_fired">The Binder Service has been fired onDestroy"</string>
+    <string name="binder_oncreate_fired">The Binder Service service has been fired onCreate"</string>
+    <string name="binder_toast_started">Binder Service Started</string>
+    <string name="binder_toast_stopped">Binder Service Stopped</string>
+    <string name="binder_toast_connected">Binder Service Connected</string>
+    <string name="binder_toast_disconnected">Binder Service Disconnected</string>
+
+
+</resources>

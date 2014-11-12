@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/binder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToBinderAcitivity"
+        android:text="@string/binder_activity_name"
+        />
+
+    <Button
+        android:id="@+id/messenger"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToMessengerAcitivity"
+        android:text="@string/messenger_activity_name"
+        />
+
+    <Button
+        android:id="@+id/aidl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToAIDLAcitivity"
+        android:text="@string/aidl_activity_name"
+        />
+
+
+
+
+</LinearLayout>
